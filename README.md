@@ -4,7 +4,7 @@
 <br />
 <p align="center">
   <a href="">
-    <img src="images/listcontact.png" alt="Logo" width="80" height="80">
+    <img src="images/listcontact.png" alt="Logo"  width="150" height="100">
   </a>
 
   <h3 align="center">Contact Book App</h3>
@@ -111,13 +111,12 @@ This project is build with python flask and Angular. To be able to use this proj
 ## Usage
 
 This app can be used to store contacts of people, delete contact as well as editing contact. 
-<img src="images/addcontact.png" alt="Logo" width="80" height="80">
-<img src="images/editcontact.png" alt="Logo" width="80" height="80">
-<img src="images/deletecontact.png" alt="Logo" width="80" height="80">
+
+<img src="images/addcontact.png" alt="Logo" width="150" height="100">
+<img src="images/editcontact.png" alt="Logo" width="150" height="100">
+<img src="images/deletecontact.png" alt="Logo"  width="150" height="100">
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [https://web.facebook.com/salvation.jnr/](https://web.facebook.com/salvation.jnr/) 
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Joshua Lartey - [https://web.facebook.com/salvation.jnr/](https://web.facebook.com/salvation.jnr/) 
