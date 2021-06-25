@@ -90,13 +90,13 @@ This project is build with python flask and Angular. To be able to use this proj
 4. Install virtualenv with the command : ```pip install virtualenv```
 5. Create virtualenv with the command: ``` virtualenv virtualenvname ```
 6. Activate the virtualenv using the command ```.\virtualenvname\Scripts\activate```
-7. Clone the repo using ``` git clone https://github.com/larteyjoshua/Smart-Height-Detector-2.git ```
+7. Clone the repo using ``` git clone https://github.com/larteyjoshua/Contact-Book-App.git ```
 8. cd into the Backend folder in the clone folder.
 9.  Run the command ```pip install - r requirements.txt ``` to install all the Python packages used in building this project. 
 10. Download postgres db from [https://www.postgresql.org/download/windows/](https://www.postgresql.org/download/windows/) and install it
 11. Create create a db with the name ``` contactbook```
 12. Change the db passowrd on app.py file and save. 
-13. Run the command  ``` flask db init```, ```flask db migrate```, ```flask db upgrade```
+13. Run the command  ``` flask db init```, ```flask db migrate```, ```flask db upgrade``` to create the database table in the postgres db.
 14. Finally, run python app.py to start the app. 
 
 ### Installation 2 FRONTEND  TYPESCRIPT ANGULAR
