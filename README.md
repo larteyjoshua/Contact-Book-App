@@ -10,7 +10,7 @@
   <h3 align="center">Contact Book App</h3>
 
   <p align="center">
-The best way of lrarning is actually building something.
+The best way of learning is actually building something.
     <br />
     <br />
     <br />
