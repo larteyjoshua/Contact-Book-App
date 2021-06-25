@@ -1,0 +1,74 @@
+<div class="container">  
+    <div class="row">  
+        <div class="col-md-8">  
+            <h1>  
+                <span class="badge badge-dark" id="header">Adding Contact</span>  
+            </h1>  
+            <hr>  
+                <form [formGroup]="userForm" (ngSubmit)="onSubmit()">  
+                    <div class="row">  
+                        <div class="col-md-4">  
+                            <label for="firstName"> Name:</label>  
+                        </div>  
+                        <div class="col-md-6">  
+                            <input type="text" class="form-control" formControlName="name">  
+                                <div *ngIf="submitted && userForm.controls.name.errors" class="error">  
+                                    <div *ngIf="userForm.controls.name.errors.required">First name is required</div>  
+                                </div>  
+                            </div>  
+                        </div>  
+                        <div class="row">  
+                            <div class="col-md-4">  
+                                <label for="firstName">Email:</label>  
+                            </div>  
+                            <div class="col-md-6">  
+                                <input type="text" class="form-control" formControlName="email">  
+                                    <div *ngIf="submitted && userForm.controls.email.errors" class="error">  
+                                        <div *ngIf="userForm.controls.email.errors.required">Email is required</div>  
+                                    </div>  
+                                </div>  
+                            </div>  
+                            <div class="row">  
+                                <div class="col-md-4">  
+                                    <label for="firstName">Telephone:</label>  
+                                </div>  
+                                <div class="col-md-6">  
+                                    <input type="email" class="form-control" formControlName="telephone">  
+                                        <div *ngIf="submitted && userForm.controls.telephone.errors" class="error">  
+                                            <div *ngIf="userForm.controls.Gender.errors.required">Telephone number is required</div>  
+                                        </div>  
+                                    </div>  
+                                </div>  
+                                <div class="row">  
+                                    <div class="col-md-4">  
+                                        <label for="firstName">GPS Location:</label>  
+                                    </div>  
+                                    <div class="col-md-6">  
+                                        <input type="text" class="form-control" formControlName="gps_location">  
+                                            <div *ngIf="submitted && userForm.controls.gps_location.errors" class="error">  
+                                                <div *ngIf="userForm.controls.Address.errors.required">GPS Location is required</div>  
+                                            </div>  
+                                        </div>  
+                                    </div>  
+                                    <div class="row">  
+                                        <div class="col-md-4">  
+                                            <label for="firstName">School:</label>  
+                                        </div>  
+                                        <div class="col-md-6">  
+                                            <input type="text" class="form-control" formControlName="school">  
+                                                <div *ngIf="submitted && userForm.controls.school.errors" class="error">  
+                                                    <div *ngIf="userForm.controls.school.errors.required">School is required</div>  
+                                                </div>  
+                                            </div>  
+                                        </div>  
+                                            <div class="row">  
+                                                <div class="col-md-4"></div>  
+                                                <div class="col-md-4">  
+                                                    <button type="submit" style="margin: 10px;" class="btn btn-primary">Submit</button>     
+  
+                                                    <input type="button" style="margin: 10px;" class="btn btn-warning" (click)="Cancel()" value="Cancel">  
+                                                    </div>  
+                                                </div>  
+                                            </form>  
+                                        </div>  
+                                </div>  
