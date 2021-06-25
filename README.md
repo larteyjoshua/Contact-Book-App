@@ -4,7 +4,7 @@
 <br />
 <p align="center">
   <a href="">
-    <img src="images/listcontact.png" alt="Logo"  width="150" height="100">
+    <img src="images/listcontact.png" alt="Logo"  width="150" height="800">
   </a>
 
   <h3 align="center">Contact Book App</h3>
@@ -112,9 +112,9 @@ This project is build with python flask and Angular. To be able to use this proj
 
 This app can be used to store contacts of people, delete contact as well as editing contact. 
 
-<img src="images/addcontact.png" alt="Logo" width="150" height="100">
-<img src="images/editcontact.png" alt="Logo" width="150" height="100">
-<img src="images/deletecontact.png" alt="Logo"  width="150" height="100">
+<img src="images/addcontact.png" alt="Logo" width="150" height="800">
+<img src="images/editcontact.png" alt="Logo" width="150" height="800">
+<img src="images/deletecontact.png" alt="Logo"  width="150" height="800">
 
 <!-- CONTACT -->
 ## Contact
